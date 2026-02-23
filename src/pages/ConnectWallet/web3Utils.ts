@@ -62,7 +62,7 @@ export const TARGET_NETWORK_CHAIN_ID = IS_MAINNET
   ? NetworkChainId.Mainnet
   : NetworkNameToChainId[TESTNET_LAUNCHPAD_NAME];
 
-export const IS_HOODI = TARGET_NETWORK_CHAIN_ID === NetworkChainId.Hii;
+export const IS_HII = TARGET_NETWORK_CHAIN_ID === NetworkChainId.Hii;
 
 
 

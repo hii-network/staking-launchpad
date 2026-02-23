@@ -11,7 +11,7 @@ import { Text } from '../../../components/Text';
 import { Link } from '../../../components/Link';
 import { Code } from '../../../components/Code';
 import { Heading } from '../../../components/Heading';
-import { IS_HOODI } from '../../ConnectWallet/web3Utils';
+import { IS_HII } from '../../ConnectWallet/web3Utils';
 import { IS_MAINNET } from '../../../utils/envVars';
 
 // eslint-disable-next-line no-unused-vars
@@ -47,7 +47,7 @@ export const ErigonDetails = () => (
         <FormattedMessage defaultMessage="Erigon installation documentation" />
       </Link>
     </section>
-    {!IS_MAINNET && IS_HOODI && (
+    {!IS_MAINNET && IS_HII && (
       <>
         <section>
           <SectionTitle level={2} className="mb5">

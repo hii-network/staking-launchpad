@@ -11,7 +11,7 @@ import { Text } from '../../../components/Text';
 import { Link } from '../../../components/Link';
 import { Code } from '../../../components/Code';
 import { Heading } from '../../../components/Heading';
-import { IS_HOODI } from '../../ConnectWallet/web3Utils';
+import { IS_HII } from '../../ConnectWallet/web3Utils';
 import { IS_MAINNET } from '../../../utils/envVars';
 
 // eslint-disable-next-line no-unused-vars
@@ -54,7 +54,7 @@ export const BesuDetails = () => (
       <Text className="mb20 mt10">
         <FormattedMessage defaultMessage="Make sure you do the following to get your execution client working properly." />
       </Text>
-      {!IS_MAINNET && IS_HOODI && (
+      {!IS_MAINNET && IS_HII && (
         <>
           <Heading level={3} className="mt20">
             <FormattedMessage defaultMessage="Testing on Hii" />
