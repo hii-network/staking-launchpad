@@ -17,13 +17,15 @@ import {
 export enum NetworkChainId {
   'Mainnet' = 1,
   'Sepolia' = 11155111,
-  'Hoodi' = 560048,
+  'Hii' = 3151908,
+
 }
 
 export const NetworkChainIdDict: { [id: string]: number } = {
   Mainnet: 1,
   Sepolia: 11155111,
-  Hoodi: 560048,
+  Hii: 3151908,
+
 };
 
 /*
@@ -34,12 +36,15 @@ export const NetworkChainIdDict: { [id: string]: number } = {
 const supportedNetworks = [
   NetworkChainId.Mainnet,
   NetworkChainId.Sepolia,
-  NetworkChainId.Hoodi,
+  NetworkChainId.Hii,
+
+  
 ];
 
 enum Testnet {
   'Sepolia',
-  'Hoodi',
+  'Hii',
+
 }
 
 enum Mainnet {
@@ -49,14 +54,17 @@ enum Mainnet {
 export const NetworkNameToChainId: { [key: string]: NetworkChainId } = {
   Mainnet: NetworkChainId.Mainnet,
   Sepolia: NetworkChainId.Sepolia,
-  Hoodi: NetworkChainId.Hoodi,
+  Hii: NetworkChainId.Hii,
+
 };
 
 export const TARGET_NETWORK_CHAIN_ID = IS_MAINNET
   ? NetworkChainId.Mainnet
   : NetworkNameToChainId[TESTNET_LAUNCHPAD_NAME];
 
-export const IS_HOODI = TARGET_NETWORK_CHAIN_ID === NetworkChainId.Hoodi;
+export const IS_HOODI = TARGET_NETWORK_CHAIN_ID === NetworkChainId.Hii;
+
+
 
 export const AllowedNetworks = IS_MAINNET ? Mainnet : Testnet;
 
@@ -67,7 +75,7 @@ export const metamask: InjectedConnector = new MetamaskConnector({
 
 export const fortmatic: FortmaticConnector = new FortmaticConnector({
   apiKey: FORTMATIC_KEY as string,
-  chainId: IS_MAINNET ? NetworkChainId.Mainnet : NetworkChainId.Hoodi,
+  chainId: IS_MAINNET ? NetworkChainId.Mainnet : NetworkChainId.Hii,
   rpcUrl: RPC_URL,
 });
 

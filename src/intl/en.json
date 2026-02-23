@@ -529,8 +529,8 @@
     "message": "You can improve the effective balance of this validator by topping up"
   },
   "6g+zCA": {
-    "description": "Link to documentation about execution client Besu, specifically for Hoodi testnet",
-    "message": "Besu on Hoodi documentation"
+    "description": "Link to documentation about execution client Besu, specifically for Hii testnet",
+    "message": "Besu on Hii documentation"
   },
   "6glcFX": {
     "message": "How to join the public testnet"
@@ -2199,7 +2199,7 @@
     "message": "Note: the RTC (Real-Time Clock) time may be set to your local timezone instead of UTC, especially in a VM which has its clock configured on Windows."
   },
   "ZM0a7A": {
-    "message": "Geth on Hoodi documentation"
+    "message": "Geth on Hii documentation"
   },
   "ZOU+p7": {
     "message": "--http documentation"
@@ -2750,8 +2750,8 @@
     "message": "Maximum effective balance of {MAX_EFFECTIVE_BALANCE} {TICKER_NAME}"
   },
   "jNoyrQ": {
-    "description": "{testnet} shows '--network=hoodi' terminal command",
-    "message": "Use {testnet} to sync the Hoodi testnet."
+    "description": "{testnet} shows '--network=hii' terminal command",
+    "message": "Use {testnet} to sync the Hii testnet."
   },
   "jVlgXS": {
     "message": "Dig deeper into the Ethereum roadmap."
@@ -2964,8 +2964,8 @@
     "message": "Activation Epoch"
   },
   "ltZIgm": {
-    "description": "{testnet} shows '--chain hoodi' terminal command",
-    "message": "Use {testnet} to sync the Hoodi testnet."
+    "description": "{testnet} shows '--chain hii' terminal command",
+    "message": "Use {testnet} to sync the Hii testnet."
   },
   "mAZHi2": {
     "message": "You can broadcast your signed message from the command line using the {curl} command:"
@@ -3557,7 +3557,7 @@
     "message": "Run the following command to launch the app"
   },
   "wFaSlr": {
-    "message": "Testing on Hoodi"
+    "message": "Testing on Hii"
   },
   "wIdVXZ": {
     "message": "\"Type 1\", \"regular withdrawals\""
@@ -3585,7 +3585,7 @@
     "message": "Run the following command:"
   },
   "wpiqvH": {
-    "message": "Use {testnet} to sync the Hoodi testnet."
+    "message": "Use {testnet} to sync the Hii testnet."
   },
   "wtTeex": {
     "message": "Are there spelling mistakes?"

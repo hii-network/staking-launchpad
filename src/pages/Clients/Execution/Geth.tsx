@@ -55,13 +55,13 @@ export const GethDetails = () => (
       {!IS_MAINNET && IS_HOODI && (
         <>
           <Heading level={3} className="mt20">
-            <FormattedMessage defaultMessage="Testing on Hoodi" />
+            <FormattedMessage defaultMessage="Testing on Hii" />
           </Heading>
           <Text className="mt10">
             <FormattedMessage
-              defaultMessage="Use {testnet} to sync the Hoodi testnet."
+              defaultMessage="Use {testnet} to sync the Hii testnet."
               values={{
-                testnet: <Code className="mt20">--hoodi</Code>,
+                testnet: <Code className="mt20">--hii</Code>,
               }}
             />
           </Text>
@@ -69,7 +69,7 @@ export const GethDetails = () => (
             primary
             to="https://geth.ethereum.org/docs/interface/command-line-options"
           >
-            <FormattedMessage defaultMessage="Geth on Hoodi documentation" />
+            <FormattedMessage defaultMessage="Geth on Hii documentation" />
           </Link>
         </>
       )}

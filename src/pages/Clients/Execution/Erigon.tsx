@@ -57,15 +57,15 @@ export const ErigonDetails = () => (
             <FormattedMessage defaultMessage="Make sure you do the following to get your execution client working properly." />
           </Text>
           <Heading level={3} className="mt20">
-            <FormattedMessage defaultMessage="Testing on Hoodi" />
+            <FormattedMessage defaultMessage="Testing on Hii" />
           </Heading>
           <Text className="mt10">
             <FormattedMessage
-              defaultMessage="Use {testnet} to sync the Hoodi testnet."
+              defaultMessage="Use {testnet} to sync the Hii testnet."
               values={{
-                testnet: <Code className="mt20">--chain hoodi</Code>,
+                testnet: <Code className="mt20">--chain hii</Code>,
               }}
-              description="{testnet} shows '--chain hoodi' terminal command"
+              description="{testnet} shows '--chain hii' terminal command"
             />
           </Text>
           <Link

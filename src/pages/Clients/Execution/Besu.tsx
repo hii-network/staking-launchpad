@@ -57,15 +57,15 @@ export const BesuDetails = () => (
       {!IS_MAINNET && IS_HOODI && (
         <>
           <Heading level={3} className="mt20">
-            <FormattedMessage defaultMessage="Testing on Hoodi" />
+            <FormattedMessage defaultMessage="Testing on Hii" />
           </Heading>
           <Text className="mt10">
             <FormattedMessage
-              defaultMessage="Use {testnet} to sync the Hoodi testnet."
+              defaultMessage="Use {testnet} to sync the Hii testnet."
               values={{
-                testnet: <Code className="mt20">--network=hoodi</Code>,
+                testnet: <Code className="mt20">--network=hii</Code>,
               }}
-              description="{testnet} shows '--network=hoodi' terminal command"
+              description="{testnet} shows '--network=hii' terminal command"
             />
           </Text>
           <Link
@@ -74,8 +74,8 @@ export const BesuDetails = () => (
             className="mt20"
           >
             <FormattedMessage
-              defaultMessage="Besu on Hoodi documentation"
-              description="Link to documentation about execution client Besu, specifically for Hoodi testnet"
+              defaultMessage="Besu on Hii documentation"
+              description="Link to documentation about execution client Besu, specifically for Hii testnet"
             />
           </Link>
         </>
