@@ -85,11 +85,19 @@ export const validateDepositKey = async (
 
   const depositKeysStatuses: boolean[] = files.map(depositDatum => {
     if (!validateFieldFormatting(depositDatum)) {
+      // eslint-disable-next-line no-console
+      console.log("loi 1");
       return false;
     }
     if (!verifyDepositRoots(depositDatum)) {
+      // eslint-disable-next-line no-console
+      console.log("loi 2");
+
       return false;
     }
+    // eslint-disable-next-line no-console
+    console.log("loi 3");
+    
     return verifySignature(depositDatum);
   });
   return _every(depositKeysStatuses);
