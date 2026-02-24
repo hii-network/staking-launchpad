@@ -17,14 +17,14 @@ import {
 export enum NetworkChainId {
   'Mainnet' = 1,
   'Sepolia' = 11155111,
-  'Hii' = 3151908,
+  'Hii' = 23512,
 
 }
 
 export const NetworkChainIdDict: { [id: string]: number } = {
   Mainnet: 1,
   Sepolia: 11155111,
-  Hii: 3151908,
+  Hii: 23512,
 
 };
 

@@ -47,5 +47,6 @@ export const verifySignature = (depositDatum: DepositKeyInterface): boolean => {
   const depositMessageBuffer = bufferHex(depositDatum.deposit_message_root);
   const domain = computeDomain(DOMAIN_DEPOSIT);
   const signingRoot = computeSigningRoot(depositMessageBuffer, domain);
+  console.log('pubkeyBuffer', pubkeyBuffer);
   return verify(pubkeyBuffer, signingRoot, signatureBuffer);
 };
